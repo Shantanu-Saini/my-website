@@ -34,7 +34,7 @@ const Projects = () => {
             <hr className='my-3' />
             <span className='flex justify-around'>
               <a href="https://learn-lite.netlify.app/" target='_blank' rel="noreferrer"><IoIosLink className='text-2xl'/></a>
-              <a href="https://github.com/Shantanu-Saini" target='_blank' rel="noreferrer"><LuGithub className='text-2xl'/></a>
+              <a href="https://github.com/Shantanu-Saini/LearnLite" target='_blank' rel="noreferrer"><LuGithub className='text-2xl'/></a>
             </span>
           </div>
         </div>

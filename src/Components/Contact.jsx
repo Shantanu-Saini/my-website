@@ -11,7 +11,7 @@ import myCV from '../Images/ShantanuCV.pdf';
 const Contact = () => {
   return (
     <>
-      <div id='contact' className='flex flex-col justify-center items-center md:py-16  md:px-14 px-4' style={{ backgroundColor: "#F8F9FF" }}>
+      <div id='contact' className='flex flex-col justify-center items-center md:py-16  md:px-14 px-4' style={{ backgroundColor: "#FAF9F6" }}>
         <div className='bg-white rounded-3xl md:px-8 md:py-8 p-7 w-full drop-shadow-2xl'>
 
           <h2 className="font-extrabold text-4xl mb-5">Contact Me</h2>
