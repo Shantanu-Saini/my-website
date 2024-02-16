@@ -41,7 +41,7 @@ const Home = () => {
             </div>
 
             <div className="md:w-1/2 rounded-full flex items-center justify-center">
-                <img src={myImage} className="md:h-96 h-72 w-auto hover:-translate-y-4 duration-300" />
+                <img src={myImage} alt='Shantanu' className="md:h-96 h-72 w-auto hover:-translate-y-4 duration-300" />
             </div>
 
         </div>

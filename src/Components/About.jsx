@@ -16,7 +16,7 @@ const About = () => {
       <p className='my-8 text-xl'>Brief Introduction to me</p>
       <div className='flex md:flex-row flex-col justify-center items-center mt-4'>
         <div className='md:w-1/2 flex items-center justify-center'>
-          <img src={anime} className='w-auto md:h-fit h-max rounded-md' />
+          <img src={anime} alt='Anime' className='w-auto md:h-fit h-max rounded-md' />
         </div>
 
 
