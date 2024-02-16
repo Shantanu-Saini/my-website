@@ -20,10 +20,10 @@ const Home = () => {
                             <a href="https://www.linkedin.com/in/shantanu-saini-525a9a27a/" target="_blank" rel="noreferrer noopener"><FaLinkedinIn className='text-2xl' /></a>
                         </div>
                         <div className='h-12 w-12 flex items-center justify-center bg-gray-200 rounded-full'>
-                            <a href="https://www.instagram.com/whoshantanu_/?igshid=NTc4MTIwNjQ2YQ%3D%3D" target="_blank"><FaInstagram className='text-2xl' /></a>
+                            <a href="https://www.instagram.com/whoshantanu_/?igshid=NTc4MTIwNjQ2YQ%3D%3D" target="_blank" rel="noreferrer"><FaInstagram className='text-2xl' /></a>
                         </div>
                         <div className='h-12 w-12 flex items-center justify-center bg-gray-200 rounded-full'>
-                            <a href="https://github.com/Shantanu-Saini" target="_blank">
+                            <a href="https://github.com/Shantanu-Saini" target="_blank" rel="noreferrer">
                                 <FaGithub className='text-2xl' />
                             </a>
                         </div>
@@ -41,7 +41,7 @@ const Home = () => {
             </div>
 
             <div className="md:w-1/2 rounded-full flex items-center justify-center">
-                <img src={myImage} alt="My Image" className="md:h-96 h-72 w-auto hover:-translate-y-4 duration-300" />
+                <img src={myImage} className="md:h-96 h-72 w-auto hover:-translate-y-4 duration-300" />
             </div>
 
         </div>

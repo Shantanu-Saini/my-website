@@ -34,12 +34,11 @@ const Contact = () => {
                     <a href="https://www.linkedin.com/in/shantanu-saini-525a9a27a/" target="_blank" rel="noreferrer noopener"><FaLinkedinIn className='text-2xl' /></a>
                   </div>
                   <div className='h-12 w-12 flex items-center justify-center bg-gray-200 rounded-full'>
-                    <a href="https://www.instagram.com/whoshantanu_/?igshid=NTc4MTIwNjQ2YQ%3D%3D" target="_blank"><FaInstagram className='text-2xl' /></a>
+                    <a href="https://www.instagram.com/whoshantanu_/?igshid=NTc4MTIwNjQ2YQ%3D%3D" target="_blank" rel="noreferrer"><FaInstagram className='text-2xl' /></a>
                   </div>
                   <div className='h-12 w-12 flex items-center justify-center bg-gray-200 rounded-full'>
-                    <a href="https://github.com/Shantanu-Saini" target="_blank">
-                      <FaGithub className='text-2xl' />
-                    </a>
+                    <a href="https://github.com/Shantanu-Saini" target="_blank"
+                      rel="noopener noreferrer"><FaGithub /></a>
                   </div>
 
                 </div>
