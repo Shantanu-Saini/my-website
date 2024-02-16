@@ -21,8 +21,17 @@ const Contact = () => {
             {/* Left Section */}
             <div className='flex flex-col justify-between md:w-1/2 w-full'>
               <div className='space-y-6'>
-                <p className='flex items-center'><FaMobileAlt className='mr-2 text-2xl' />+91 6395853395</p>
-                <p className='flex items-center'><MdOutlineMail className='mr-2 text-2xl' />shantanusaini7000@gmail.com</p>
+                <div>
+                  <p className='flex items-center'>
+                    <FaMobileAlt className='mr-2 text-2xl' />
+                    <a href='tel:+916395853395'>+91 6395853395</a>
+                  </p>
+                  <p className='flex items-center'>
+                    <MdOutlineMail className='mr-2 text-2xl' />
+                    <a href='mailto:shantanusaini7000@gmail.com'>shantanusaini7000@gmail.com</a>
+                  </p>
+                </div>
+
                 <a href={myCV} download="ShantanuCV.pdf"><button className="bg-red-700 inline text-white px-4 py-2 my-5 mr-4 hover:bg-slate-700 transition duration-300 hover:scale-110">
                   <span className='flex items-center'>Download CV <BsBoxArrowInDown className='ml-2' /> </span>
                 </button></a>
