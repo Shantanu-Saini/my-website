@@ -1,0 +1,51 @@
+import React from 'react';
+import myImage from '../Images/my_image.png';
+import { FaLinkedinIn, FaInstagram, FaGithub } from "react-icons/fa";
+import { BsBoxArrowUpRight, BsBoxArrowInDown } from "react-icons/bs";
+import myCV from '../Images/ShantanuCV.pdf';
+
+const Home = () => {
+
+    return (
+
+        <div id='home' className="flex md:flex-row flex-col md:justify-between items-center md:px-10  px-4 md:h-screen h-max" style={{ backgroundColor: "#FAF9F6" }}>
+            <div className="md:w-1/2 md:px-16 px-8 py-8">
+                <h1 className="md:text-4xl text-2xl font-bold mb-4 text-gray-800">Hi, I'm</h1>
+                <span className='text-red-700 md:text-6xl text-4xl font-bold italic'>Shantanu Saini</span>
+                <br /><br />
+                <h2 className="mb-6 md:text-5xl text-2xl">I'm a Programmer.</h2>
+                <div className='space-y-6 mb-10'>
+                    <div className='flex space-x-6'>
+                        <div className='h-12 w-12 flex items-center justify-center bg-gray-200 rounded-full'>
+                            <a href="https://www.linkedin.com/in/shantanu-saini-525a9a27a/" target="_blank" rel="noreferrer noopener"><FaLinkedinIn className='text-2xl' /></a>
+                        </div>
+                        <div className='h-12 w-12 flex items-center justify-center bg-gray-200 rounded-full'>
+                            <a href="https://www.instagram.com/whoshantanu_/?igshid=NTc4MTIwNjQ2YQ%3D%3D" target="_blank"><FaInstagram className='text-2xl' /></a>
+                        </div>
+                        <div className='h-12 w-12 flex items-center justify-center bg-gray-200 rounded-full'>
+                            <a href="https://github.com/Shantanu-Saini" target="_blank">
+                                <FaGithub className='text-2xl' />
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <a href={myCV} download="ShantanuCV.pdf"><button className="bg-red-700 inline text-white px-4 py-2 mr-4 hover:bg-slate-700 transition duration-300 hover:scale-110">
+                    <span className='flex items-center'>Download CV <BsBoxArrowInDown className='ml-2' /> </span>
+                </button></a>
+                <a href="#contact"><button className="bg-red-700 text-white px-4 py-2 mr-4 hover:bg-slate-700 transition duration-300 hover:scale-110">
+                    <span className='flex items-center'>Contact Me  <BsBoxArrowUpRight className='ml-2' />
+                    </span>
+                </button></a>
+            </div>
+
+            <div className="md:w-1/2 rounded-full flex items-center justify-center">
+                <img src={myImage} alt="My Image" className="md:h-96 h-72 w-auto hover:-translate-y-4 duration-300" />
+            </div>
+
+        </div>
+    );
+};
+
+export default Home;
