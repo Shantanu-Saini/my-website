@@ -11,7 +11,7 @@ const About = () => {
   };
 
   return (
-    <div id='about' className="flex flex-col items-center md:px-10 py-20 px-4 py-8 h-max" style={{ backgroundColor: "#FAF9F6" }}>
+    <div id='about' className="flex flex-col items-center md:px-10 md:py-20 px-4 py-8 h-max" style={{ backgroundColor: "#FAF9F6" }}>
       <h1 className='text-4xl font-bold'>About Me</h1>
       <p className='my-8 text-xl'>Brief Introduction to me</p>
       <div className='flex md:flex-row flex-col justify-center items-center mt-4'>
