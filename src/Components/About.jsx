@@ -3,7 +3,9 @@ import anime from '../Images/anime.gif';
 import { GiGraduateCap } from "react-icons/gi";
 import { HiBriefcase } from "react-icons/hi";
 
-const About = () => {
+const About = (props) => {
+  const { isLight } = props;
+
   const [activeTab, setActiveTab] = useState('education');
 
   const openTab = (tab) => {
@@ -11,7 +13,7 @@ const About = () => {
   };
 
   return (
-    <div id='about' className="flex flex-col items-center md:px-10 md:py-20 px-4 py-8 h-max" style={{ backgroundColor: "#FAF9F6" }}>
+    <div id='about' className={`flex flex-col items-center md:px-10 md:py-20 px-4 py-8 h-max ${isLight ? "text-black" : 'text-white'}`} style={isLight ? { backgroundColor: "#FAF9F6" } : { backgroundColor: "#121212" }}>
       <h1 className='text-4xl font-bold'>About Me</h1>
       <p className='my-8 text-xl'>Brief Introduction to me</p>
       <div className='flex md:flex-row flex-col justify-center items-center mt-4'>

@@ -13,10 +13,11 @@ import git from '../Images/git.png'
 import github from '../Images/github.png'
 import mysql from '../Images/mysql.png'
 
-const Skills = () => {
+const Skills = (props) => {
+  const { isLight } = props;
   return (
     <>
-      <div id='skills' className="flex flex-col items-center md:px-20 px-5 py-20 h-max" style={{ backgroundColor: "#FAF9F6" }}>
+      <div id='skills' className={`flex flex-col items-center md:px-20 px-5 py-20 h-max ${isLight ? "text-black" : 'text-white'}`} style={isLight ? { backgroundColor: "#FAF9F6" } : { backgroundColor: "#121212" }}>
         <h1 className="text-4xl font-bold">Skills</h1>
         <p className='my-8 text-xl'>What I Know</p>
         <div className="grid md:grid-cols-2 grid-cols-1 md:gap-x-40 md:gap-y-16 gap-y-14">
