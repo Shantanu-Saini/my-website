@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import anime from '../Images/anime.gif';
 import { GiGraduateCap } from "react-icons/gi";
 import { HiBriefcase } from "react-icons/hi";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const About = (props) => {
   const { isLight } = props;
@@ -12,23 +15,27 @@ const About = (props) => {
     setActiveTab(tab);
   };
 
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, [])
+
   return (
     <div id='about' className={`flex flex-col items-center md:px-10 md:py-20 px-4 py-8 h-max ${isLight ? "text-black" : 'text-white'}`} style={isLight ? { backgroundColor: "#FAF9F6" } : { backgroundColor: "#121212" }}>
       <h1 className='text-4xl font-bold'>About Me</h1>
       <p className='my-8 text-xl'>Brief Introduction to me</p>
       <div className='flex md:flex-row flex-col justify-center items-center mt-4'>
-        <div className='md:w-1/2 flex items-center justify-center'>
+        <div className='md:w-1/2 flex items-center justify-center' data-aos='fade-right'>
           <img src={anime} alt='Anime' className='w-auto md:h-fit h-max rounded-md' />
         </div>
 
 
         <div className='md:w-1/2 flex flex-col items-center justify-around md:px-8 px-4 bg-red-700 text-white md:-ml-16 md:opacity-80 md:text-lg text-base' style={{ height: "600px" }}>
           <div className='h-1/2 flex items-center'>
-            <p>
+            <p data-aos='fade-left'>
               I am a passionate computer science engineering student dedicated to the art of problem-solving. With a strong foundation in languages like C++, Java, and Python. I thrive on challenges and collaboration. Committed to exploring emerging technologies, I aspire to be a catalyst for positive change in the tech world. Explore my portfolio to discover my journey and projects.
             </p>
           </div>
-          <div className='flex flex-col items-center justify-center mt-8 h-1/2'>
+          <div className='flex flex-col items-center justify-center mt-8 h-1/2' data-aos='fade-left'>
             <div className="flex md:space-x-8 space-x-8">
               <button className={`relative after:bottom-0 hover:text-slate-200 ${activeTab === 'education'
                 ? 'active-link after:border-b-2 after:border-white after:absolute after:w-0 after:left-1/2 after:-translate-x-1/2 after:transition-all after:duration-500 after:hover:w-full'
