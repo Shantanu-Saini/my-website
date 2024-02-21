@@ -19,7 +19,6 @@ The live version of the website can be accessed at [Shantanu Saini Portfolio](ht
 - **`src/`**: Contains the source code for the website.
   - **`Components/`**: React components used throughout the website.
   - **`Images/`**: Images used in the website.
-  - **`Pages/`**: React components representing different pages of the website.
   - **`App.js`**: Main component rendering the entire website.
   - **`index.js`**: Entry point of the React application.
 
