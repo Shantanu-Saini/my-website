@@ -12,7 +12,7 @@ The live version of the website can be accessed at [Shantanu Saini Portfolio](ht
   - React.js
   - Tailwind CSS
   - React Icons
-  - Framer Motion (for animations)
+  - React AOS
 
 ## Folder Structure
 
