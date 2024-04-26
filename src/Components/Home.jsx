@@ -1,5 +1,5 @@
 import React from 'react';
-import myImage from '../Images/my_image.png';
+import myImage from '../Images/myImage.png';
 import { FaLinkedinIn, FaInstagram, FaGithub } from "react-icons/fa";
 import { BsBoxArrowUpRight, BsBoxArrowInDown } from "react-icons/bs";
 import { SiGeeksforgeeks, SiLeetcode } from "react-icons/si";
