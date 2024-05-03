@@ -42,7 +42,7 @@ const Home = (props) => {
                     </div>
                 </div>
 
-                <a href={myCV} download="ShantanuCV.pdf"><button className="bg-red-700 inline text-white px-4 py-2 mr-4 hover:bg-slate-700 transition duration-300 hover:scale-110">
+                <a href={myCV} download="ShantanuCV.pdf"><button className="bg-rose-500 inline text-white px-4 py-2 mr-4 hover:bg-slate-700 transition duration-300 hover:scale-110">
                     <span className='flex items-center'>Download CV <BsBoxArrowInDown className='ml-2' /> </span>
                 </button></a>
                 <a href="#contact"><button className="bg-red-700 text-white px-4 py-2 mr-4 hover:bg-slate-700 transition duration-300 hover:scale-110">
