@@ -1,10 +1,18 @@
 import todo from '../Images/todoList.png'
 import learnLite from '../Images/learnLite.png'
 import textOpr from '../Images/textOpr.png'
-import keyLog from '../Images/keyLog.png'
+import KNITKART from '../Images/KNITKART.png'
 import hashblog from '../Images/hashblog.jpeg'
 
 const projectData = [
+    {
+        title: "KNIT-KART",
+        description: "A web application for item exchange, enabling users to swap unused items for valuable ones.",
+        techStack: "ReactJS, Express.js, MongoDB",
+        sourceCode: "https://knit-kart.vercel.app/",
+        githubSrc: "https://github.com/Shantanu-Saini/KNIT-KART",
+        image: KNITKART
+    },
     {
         title: "hashblog",
         description: "A simple blog website where users can create their account and create, edit and delete their own blog posts",
@@ -37,14 +45,6 @@ const projectData = [
         githubSrc: "https://github.com/Shantanu-Saini/text-Operation",
         image: textOpr
     },
-    {
-        title: "Key Logger",
-        description: "Keylogger App companion for tracking keyboard activity. Keep tabs on keystrokes effortlessly. Simple, discreet, and powerful.",
-        techStack: "HTML, CSS & JavaScript",
-        sourceCode: "https://keypress-logger.netlify.app/",
-        githubSrc: "https://github.com/Shantanu-Saini/key-logger",
-        image: keyLog
-    }
 ];
 
 export default projectData;
