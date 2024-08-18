@@ -32,7 +32,7 @@ const About = (props) => {
         <div className='md:w-1/2 flex flex-col items-center justify-around md:px-8 px-4 bg-red-700 text-white md:-ml-16 md:opacity-80 md:text-lg text-base' style={{ height: "600px" }}>
           <div className='h-1/2 flex items-center'>
             <p data-aos='fade-left'>
-              I am a passionate computer science engineering student dedicated to the art of problem-solving. With a strong foundation in languages like C++, Java, and Python. I thrive on challenges and collaboration. Committed to exploring emerging technologies, I aspire to be a catalyst for positive change in the tech world. Explore my portfolio to discover my journey and projects.
+              I am a passionate computer science engineering student dedicated to the art of problem-solving with a strong foundation in languages like C, C++, Java, and JavaScript. I thrive on challenges and collaboration. Committed to exploring emerging technologies, I aspire to be a contributor for positive change in the tech world. Explore my portfolio to discover my journey and projects.
             </p>
           </div>
           <div className='flex flex-col items-center justify-center mt-8 h-1/2' data-aos='fade-left'>
@@ -71,7 +71,7 @@ const About = (props) => {
               <div>
                 <p><b>Post Graduation (2022-2024)</b></p>
                 <p>Kamla Nehru Institute of Technology</p>
-                <p>Pursuing...</p>
+                <p>CGPA : 8.29</p>
               </div>
             </div>
             <div className={`mt-8 h-full ${activeTab === 'experience' ? 'block' : 'hidden'}`}>
