@@ -3,8 +3,26 @@ import learnLite from '../Images/learnLite.png'
 import textOpr from '../Images/textOpr.png'
 import KNITKART from '../Images/KNITKART.png'
 import hashblog from '../Images/hashblog.jpeg'
+import shoptrackrr from '../Images/shoptrackrr.png'
+import prettygooddocs from '../Images/prettygooddocs.png'
 
 const projectData = [
+    {
+        title: "ShopTrackrr",
+        description: "A web application for small businesses to effectively track inventory, sales, and profitability.",
+        techStack: "NextJS, TypeScript, MongoDB",
+        sourceCode: "https://shoptrackrr.vercel.app/",
+        githubSrc: "https://github.com/Shantanu-Saini/store-manager",
+        image: shoptrackrr
+    },
+    {
+        title: "Pretty Good Docs",
+        description: "A web application for small businesses to effectively track inventory, sales, and profitability.",
+        techStack: "NextJS, MongoDB, cloudinary",
+        sourceCode: "https://pretty-good-docs.vercel.app/",
+        githubSrc: "https://github.com/Shantanu-Saini/docs-editor",
+        image: prettygooddocs
+    },
     {
         title: "KNIT-KART",
         description: "A web application for item exchange, enabling users to swap unused items for valuable ones.",
