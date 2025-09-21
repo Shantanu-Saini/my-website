@@ -17,7 +17,7 @@ const projectData = [
     },
     {
         title: "Pretty Good Docs",
-        description: "A web application for small businesses to effectively track inventory, sales, and profitability.",
+        description: "A web application for Editing Images and documents.",
         techStack: "NextJS, MongoDB, cloudinary",
         sourceCode: "https://pretty-good-docs.vercel.app/",
         githubSrc: "https://github.com/Shantanu-Saini/docs-editor",
