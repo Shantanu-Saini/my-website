@@ -76,12 +76,12 @@ const About = (props) => {
             </div>
             <div className={`mt-8 h-full ${activeTab === 'experience' ? 'block' : 'hidden'}`}>
               <p>
-                <b>SWE Inter @FireAI</b>
+                <b>SWE Intern @FireAI</b>
               </p>
               <p>September 2024 - December 2024</p>
               <br/>
-              <p>SDE @FireAI</p>
-              <p>January 2025 - Current</p>
+              <p><b>SDE @FireAI</b></p>
+              <p>January 2025 - Present</p>
             </div>
           </div>
         </div>
